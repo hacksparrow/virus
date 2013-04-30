@@ -1,7 +1,7 @@
 virus.js
 =====
 
-A simple Node.js virus to demonstrate how digital viral infection works.
+A simple Node.js virus to demonstrate how digital viral infections work.
 
 ## What it Does
 
