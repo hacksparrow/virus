@@ -7,7 +7,7 @@ A simple Node.js virus to demonstrate how digital viral infections work.
 
 The viral code will copy itself to all .js files under a directory; defaults to the directory the virus.js file resides in. Any infected file, when executed will further scan its directory for uninfected files, and infect them.
 
-The infected files will sing a song on Friday, when they are executed. It could be made more fun or dangerous, though.
+The infected files will sing a song on Fridays, when they are executed. It could be made more fun or dangerous, though.
 
 ## WARNING
 
